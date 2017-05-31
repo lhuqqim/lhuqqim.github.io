@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>index</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i|Rubik:300,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/morphext.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="js/vendors/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+    <script type="text/javascript">
+    	$(document).ready(function() {
+        	$('#fullpage').fullpage();
+    	});
+	</script>
+	
+
+</head>
+
+<body>
+	<div id="header">
+		<span class="navleft"><a href="#works">Works</a> <img src="images/zigzag3.png" style="padding-left:5px; padding-bottom:2px;"/></span>
+		<span class="navright"><img src="images/zigzag3.png" style="padding-right:5px; padding-bottom:2px;"/> <a href="#about">About</a></span>
+	</div>
+	<div id="footer">
+		<span class="navleft"><a href="#contact">Contact</a> <img src="images/zigzag3.png" style="padding-left:5px; padding-bottom:2px;"/></span>
+		<span class="navright"><a href="#top">↑ Top</a></span>
+	</div>
+	
+	<div id="fullpage">
+   	
+    	<div class="section s1" data-anchor="top">
+    			<div class="center" style="z-index:100;">
+    				<span class="topcontent"><mark>Hello, my name is Luqman. I'm a <span style="font-weight:500">digital designer</span> and a <span id="js-rotating">proud cat owner., horrible gamer., TV show marathoner., self proclaimed cook.</span></mark></span>
+    			</div>
+    			
+   				<img src="images/me.png" style="position:absolute; top:240px; left:270px; width:300px; height:auto; z-index:1;" />
+    			
+        <script src="js/morphext.min.js"></script>
+        <script>
+            $("#js-rotating").Morphext({
+                animation: "bounceIn",
+				speed: 3500,
+                complete: function () {
+                    console.log("This is called after a phrase is animated in! Current phrase index: " + this.index);
+                }
+            });
+        </script>
+        
+    	</div>
+    	
+    	<div class="section s2" data-anchor="works">
+    	<div class="slide">
+    		<div class="projcont">
+				<div class="projsubcont">
+					<img src="images/themissingpiece.png" />
+					<div class="projdesc">
+						<h6>The Missing Piece</h6>
+						I designed an advertising concept and its mobile user interface for a smart-bike sharing system.<br /><br />
+					<a href="themissingpiece.html"><div class="viewprojbtn">View Project</div></a>
+					</div>
+				</div>
+				<div class="projsubcont" style="float:right; margin-top:100px;">
+					<img src="images/uptide.png" />
+					<div class="projdesc" style="float:right;">
+						<h6>Uptide</h6>
+						I helped design a fictional mobile app UI that could be used for the water sport surfing.<br /><br />
+					<a href="uptide.html"><div class="viewprojbtn">View Project</div></a>
+					</div>
+				</div>
+    		</div>
+    	</div>
+		
+		<div class="slide">
+    		<div class="projcont">
+				<div class="projsubcont">
+					<img src="images/castielvideo.png" />
+					<div class="projdesc">
+						<h6>Castiel</h6>
+						I designed a fictional fashion brand website and produced a motion graphic video for its promotional video.<br /><br />
+					<div class="viewprojbtn">View Project</div>
+					</div>
+				</div>
+				<div class="projsubcont floatr" style="margin-top:100px;">
+					<img src="images/dts.png" />
+					<div class="projdesc floatr">
+						<h6>Designed to Stay</h6>
+						I produced a print publication simulated for National Heritage Board on 3 monuments of Singapore.<br /><br />
+					<div class="viewprojbtn">View Project</div>
+					</div>
+				</div>
+    		</div>
+		</div>
+  		</div>
+   		
+   		
+    	<div class="section s3" data-anchor="about">section</div>
+    	<div class="section s4" data-anchor="contact">Contact section</div>
+	</div>
+</body>
+</html>
+
+
