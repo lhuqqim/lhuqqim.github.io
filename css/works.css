@@ -53,6 +53,7 @@ body {
 	margin-left:auto;
 	margin-right:auto;
 	padding-top:50px;
+	padding-bottom:50px;
 	text-align:center;
 }
 
@@ -111,4 +112,9 @@ strong {
 	width:180px;
 	float:left;
 	margin-right:20px;
+}
+
+.quote {
+	border-left:2px solid #111;
+	padding-left:20px;
 }
