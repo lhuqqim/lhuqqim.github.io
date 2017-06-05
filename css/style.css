@@ -175,25 +175,35 @@ h6 {
 	float:right;
 }
 
-.aboutcont {
+.aboutcont, .contactcont {
 	font-family:'Rubik', sans-serif;
-	font-size:25px;
+	font-size:30px;
 	font-weight:100;
 	width:700px;
 	margin-left:auto;
 	margin-right:auto;
 }
 
-.aboutcont a {
+.contactcont {
+	text-align:center;
+	font-size:30px;
+	letter-spacing:1px;
+}
+
+.aboutcont a, .contactcont a {
 	color:#fff;
 }
 
-.aboutcont a:hover {
+.aboutcont a:hover, .contactcont a:hover {
 	border-bottom:1px solid #fff;
 }
 
-.aboutcont a:visited {
+.aboutcont a:visited, .contactcont a:visited {
 	color:#fff;
+}
+
+strong {
+	font-weight:500;
 }
 
 @keyframes shake {
