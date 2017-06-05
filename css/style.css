@@ -184,12 +184,16 @@ h6 {
 	margin-right:auto;
 }
 
-.aboutcont a, a:visited {
+.aboutcont a {
 	color:#fff;
 }
 
 .aboutcont a:hover {
 	border-bottom:1px solid #fff;
+}
+
+.aboutcont a:visited {
+	color:#fff;
 }
 
 @keyframes shake {
