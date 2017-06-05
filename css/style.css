@@ -184,6 +184,10 @@ h6 {
 	margin-right:auto;
 }
 
+.aboutcont a {
+	color:#fff;
+}
+
 @keyframes shake {
   10%, 90% {
     transform: translate3d(-1px, 0, 0);
