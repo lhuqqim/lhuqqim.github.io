@@ -18,21 +18,29 @@ body {
 	font-weight:300;
 }
 
+.topcontainer {
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	padding-top:50px;
+}
+
 .topcontent {
 	font-family:'Rubik', sans-serif;
 	font-size:40px;
+	text-align:center;
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	top:-50px;
 }
 
 .topcontent mark {
 	color:#fedc3d;
 	background-color:white;
-}
-
-.center {
-	width:800px;
-	margin:auto 500px;
-	position:absolute;
-	top:350px;
+	text-align:center;
 }
 
 #header, #footer{
