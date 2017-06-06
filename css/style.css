@@ -39,8 +39,9 @@ body {
 
 .topcontent mark {
 	color:#fedc3d;
+	text-align:center;
+	
 	background-color:white;
-	text-align:left;
 }
 
 #header, #footer{
@@ -258,6 +259,22 @@ strong {
 	font-weight:500;
 }
 
+td p {
+	font-family:'Inconsolata', monospace;
+	font-size:14px;
+	font-weight:300;
+	color:#111;
+	margin:0;
+}
+
+table.alignr {
+	float:right;
+}
+
+table.alignl {
+	float:left;
+}
+
 @keyframes shake {
   10%, 90% {
     transform: translate3d(-1px, 0, 0);
@@ -277,17 +294,71 @@ strong {
 }
 
 @media only screen and (max-width: 768px) {
-	.projcont img {
-		width: 400px;
-		height:auto;
+	.aboutcont, .aboutpic {
+		width:90%;
 	}
 	
-	.projsubcont {
-		float:none;
-		margin:0;
+	.topcontent {
+		font-size:30px;
+		text-align:center;
 	}
 	
-	.floatr {
+	.topcontent mark {
+		background-color:transparent;
+		color:#fff;
+		text-align:center;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	td p {
+	}
+	
+	.projcol {
 		float:none;
+		height:50%;
+		width:100%;
+		padding:0;
+	}
+	
+	.projcol table {
+	width:100%;
+	}
+	
+	#header img, #footer img {
+		display:none;
+	}
+	
+	.mobilehide {
+		display:none;
+	}
+	
+	table {
+		align-items: center;
+	}
+	
+	table.alignr, table.alignl {
+		float:none;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	.aboutcont, .aboutpic {
+		width:90%;
+	}
+	
+	.aboutpic {
+		height:20%;
+	}
+	
+	.topcontent {
+		font-size:20px;
+		text-align:left;
+	}
+	
+	.topcontent mark {
+		background-color:transparent;
+		color:#fff;
+		text-align:left;
 	}
 }
