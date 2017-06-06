@@ -29,8 +29,8 @@ body {
 .topcontent {
 	font-family:'Rubik', sans-serif;
 	font-size:40px;
-	text-align:center;
-	width:70%;
+	text-align:left;
+	width:65%;
 	margin-left:auto;
 	margin-right:auto;
 	position:relative;
@@ -40,7 +40,7 @@ body {
 .topcontent mark {
 	color:#fedc3d;
 	background-color:white;
-	text-align:center;
+	text-align:left;
 }
 
 #header, #footer{
@@ -185,9 +185,8 @@ h6 {
 }
 
 .contactcont {
+	width:100%;
 	text-align:center;
-	font-size:30px;
-	letter-spacing:1px;
 }
 
 .aboutcont a, .contactcont a {
