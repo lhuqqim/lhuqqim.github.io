@@ -111,19 +111,63 @@ body {
 	vertical-align:middle;
 }
 
+.projcol img {
+	max-width:100%;
+	opacity:0.8;
+	-webkit-transition:0.2s;
+	-moz-transition:0.2s;
+	-oz-transition:0.2s;
+	transition:0.2s;
+}
+
+.projcol img:hover {
+	opacity:1;
+	-webkit-transition:0.2s;
+	-moz-transition:0.2s;
+	-oz-transition:0.2s;
+	transition:0.2s;
+}
+
+.projcol table {
+	max-width:55%;
+	padding:0;
+	border-collapse:separate;
+	border:none;
+}
+
+.projcol td {
+	text-align:left;
+}
+
 .projcolleft {
-	text-align:right;
+	text-align:left;
 }
 
 .projcolright {
 	text-align:left;
 }
 
+.projtitle {
+	font-family:'Rubik', sans-serif;
+	font-size:15px;
+	letter-spacing:3px;
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:500;
+	opacity:0.9;
+}
+
+.projdesc {
+	padding:10px;
+	background-color:rgba(255,255,255,0.8);
+	color:#111;
+	font-family:'Inconsolata', monospace;
+}
+
 .viewprojbtn {
-	width:180px;
-	border:2px solid #111;
+	border:1px solid #111;
 	text-align:center;
-	padding:15px 30px 15px 30px;
+	padding:10px 10px 10px 10px;
 	overflow:auto;
 	font-family:'Rubik', sans-serif;
 	font-size:12px;
@@ -173,7 +217,7 @@ h6 {
 	margin-right:auto;
 	color:#94B2B9;
 	background-color:rgba(255,255,255,0.7);
-	padding:10px;
+	padding:15px;
 }
 
 .aboutpic {
