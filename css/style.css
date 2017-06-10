@@ -241,6 +241,10 @@ h6 {
 .contactcont {
 	width:100%;
 	text-align:center;
+	font-family:"Inconsolata", monospace;
+	font-size:15px;
+	letter-spacing:1px;
+	line-height:20px;
 }
 
 .aboutcont a, .contactcont a {
@@ -361,4 +365,15 @@ table.alignl {
 		color:#fff;
 		text-align:left;
 	}
+	
+	.topwork {
+		position:relative;
+		top:20px;
+	}
+	
+	.bottomwork {
+		position:relative;
+		bottom:20px;
+	}
+	
 }

@@ -279,3 +279,30 @@ html.fp-enabled,
 	background-repeat:no-repeat;
 	background-size:cover;
 }
+
+@media only screen and (max-width: 375px) {
+	
+	.fp-controlArrow.fp-next {
+	background-image:url("../images/nexticon.png");
+	background-size:contain;
+	background-repeat:no-repeat;
+    right: 30px;
+	width:17px;
+    /*border-width: 15px 0 15px 15px;
+    border-color: transparent transparent transparent #fff;*/
+	opacity:0.6;
+	transition:0.2s;
+}
+	
+	.fp-controlArrow.fp-prev {
+    background-image:url("../images/previcon.png");
+	background-size:contain;
+	background-repeat:no-repeat;
+	left: 30px;
+    width: 17px;
+    /*border-width: 15px 15px 15px 0;
+    border-color: transparent #fff transparent transparent;*/
+	opacity:0.6;
+	transition:0.2s;
+}
+}
